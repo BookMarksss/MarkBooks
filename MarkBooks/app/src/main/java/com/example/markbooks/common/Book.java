@@ -7,7 +7,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-// Book 구조체 김찬호 바꾼다 고현욱도 바꿈 ㅋㅋㅋㅋㅋㅋㅋ
+// 최수현
 public class Book {
     private static FirebaseFirestore fStore = FirebaseFirestore.getInstance();
     public String genre;
