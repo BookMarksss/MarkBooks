@@ -7,7 +7,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-// Book 구조체
+// Book 구조체 김찬호 바꿈 ㅋㅋㅋㅋㅋ
 public class Book {
     private static FirebaseFirestore fStore = FirebaseFirestore.getInstance();
     public String genre;
