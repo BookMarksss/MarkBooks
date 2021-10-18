@@ -7,7 +7,6 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-// 최수현
 public class Book {
     private static FirebaseFirestore fStore = FirebaseFirestore.getInstance();
     public String genre;
