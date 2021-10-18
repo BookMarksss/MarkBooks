@@ -87,7 +87,7 @@ public class BookInfoActivity extends AppCompatActivity implements TextPlayer, V
 
     //음성 인식
     private final Bundle params = new Bundle();
-    private final BackgroundColorSpan colorSpan = new BackgroundColorSpan(Color.YELLOW);
+    private final ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(Color.RED);
     private TextToSpeech tts;
     private ImageButton playBtn;
     private ImageButton pauseBtn;
@@ -576,7 +576,7 @@ public class BookInfoActivity extends AppCompatActivity implements TextPlayer, V
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                spannable.setSpan(colorSpan, start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                spannable.setSpan(foregroundColorSpan, start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             }
         });
     }
