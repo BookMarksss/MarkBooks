@@ -7,7 +7,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 
-// Book
+// Book 구조체구조체
 public class Book {
     private static FirebaseFirestore fStore = FirebaseFirestore.getInstance();
     public String genre;
