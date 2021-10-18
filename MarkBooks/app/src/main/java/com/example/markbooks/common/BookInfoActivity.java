@@ -57,7 +57,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-//testaa
+//testaaa
 public class BookInfoActivity extends AppCompatActivity implements TextPlayer, View.OnClickListener {
     TextView a, b, c, d, e, f, s_a;     // TextView 선언
     ImageView cover;                    // ImageView 선언 (책 표지)
