@@ -6,7 +6,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
-
+//bookbook
 public class Book {
     private static FirebaseFirestore fStore = FirebaseFirestore.getInstance();
     public String genre;
